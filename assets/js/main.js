@@ -165,6 +165,9 @@ class StartAnime {
     }
 
     initializeComponents() {
+        // Initialize component loader
+        this.initializeComponentLoader();
+        
         // Initialize parallax effects with performance optimization
         this.initializeParallax();
         
@@ -179,6 +182,77 @@ class StartAnime {
         
         // Initialize progressive enhancement
         this.initializeProgressiveEnhancement();
+    }
+
+    async initializeComponentLoader() {
+        try {
+            // Initialize component loader if available
+            if (window.ComponentLoader) {
+                this.componentLoader = new ComponentLoader();
+                await this.componentLoader.init();
+                
+                // Replace existing navigation and footer with components
+                await this.componentLoader.replaceNavigation();
+                await this.componentLoader.replaceFooter();
+                
+                console.log('ComponentLoader: Successfully initialized');
+                
+                // Test component creation
+                this.testComponentSystem();
+            } else {
+                console.warn('ComponentLoader: Not available, skipping component initialization');
+            }
+        } catch (error) {
+            console.error('ComponentLoader: Failed to initialize:', error);
+        }
+    }
+
+    async testComponentSystem() {
+        try {
+            // Test creating an anime card
+            const testAnimeData = {
+                id: 'test-1',
+                title: 'Test Anime',
+                image: 'assets/images/anime-covers/attack-on-titan.jpg',
+                description: 'This is a test anime card created by the component system.',
+                rating: '9.0',
+                genres: 'Action, Drama',
+                episodes: '25'
+            };
+            
+            const animeCard = await this.componentLoader.createComponent('anime-card', testAnimeData);
+            if (animeCard) {
+                console.log('ComponentLoader: Successfully created anime card component');
+                
+                // Add it to the page for testing (if there's a suitable container)
+                const testContainer = document.querySelector('.anime-grid');
+                if (testContainer) {
+                    testContainer.appendChild(animeCard);
+                }
+            }
+            
+            // Test creating a genre card
+            const testGenreData = {
+                name: 'Test Genre',
+                description: 'This is a test genre created by the component system.',
+                icon: '🎭',
+                examples: 'Example 1, Example 2, Example 3'
+            };
+            
+            const genreCard = await this.componentLoader.createComponent('genre-card', testGenreData);
+            if (genreCard) {
+                console.log('ComponentLoader: Successfully created genre card component');
+                
+                // Add it to the page for testing (if there's a suitable container)
+                const testContainer = document.querySelector('.genre-grid');
+                if (testContainer) {
+                    testContainer.appendChild(genreCard);
+                }
+            }
+            
+        } catch (error) {
+            console.error('ComponentLoader: Test failed:', error);
+        }
     }
 
     handlePageLoad() {

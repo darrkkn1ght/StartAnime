@@ -6,16 +6,22 @@
     "scripts": {
       "start": "live-server --port=3000 --open=/index.html",
       "dev": "live-server --port=3000 --open=/index.html --watch=assets/",
-      "build": "npm run minify-css && npm run minify-js && npm run optimize-images",
+      "build": "npm run minify-css && npm run minify-js && npm run optimize-images && npm run generate-icons",
       "minify-css": "cleancss -o assets/css/main.min.css assets/css/*.css",
       "minify-js": "uglifyjs assets/js/*.js -o assets/js/main.min.js",
       "optimize-images": "imagemin assets/images/**/* --out-dir=assets/images/optimized/",
+      "generate-icons": "pwa-asset-generator assets/images/ui/logo.svg assets/images/icons --icon-only --favicon --opaque false",
       "lint": "eslint assets/js/ --ext .js",
       "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
       "validate": "html-validate *.html",
       "serve": "http-server -p 8080 -o",
       "deploy": "gh-pages -d .",
-      "test": "jest --coverage"
+      "test": "jest --coverage",
+      "lighthouse": "lighthouse http://localhost:3000 --output html --output-path ./lighthouse-report.html",
+      "performance": "npm run build && npm run lighthouse",
+      "analyze": "webpack-bundle-analyzer dist/stats.json",
+      "pwa": "workbox generateSW workbox-config.js",
+      "critical": "critical index.html --inline --base assets/css/ --target critical.css"
     },
     "keywords": [
       "anime",
@@ -51,7 +57,13 @@
       "sass": "^1.70.0",
       "autoprefixer": "^10.4.17",
       "postcss": "^8.4.35",
-      "postcss-cli": "^11.0.0"
+      "postcss-cli": "^11.0.0",
+      "lighthouse": "^11.6.0",
+      "pwa-asset-generator": "^6.0.0",
+      "workbox-cli": "^7.0.0",
+      "critical": "^5.1.1",
+      "webpack-bundle-analyzer": "^4.10.1",
+      "puppeteer": "^21.6.1"
     },
     "dependencies": {
       "aos": "^2.3.4",

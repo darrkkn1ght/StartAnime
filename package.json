@@ -1,0 +1,104 @@
+{
+    "name": "startanime",
+    "version": "1.0.0",
+    "description": "A modern, beginner-friendly anime discovery website with clean design and personalized recommendations",
+    "main": "index.html",
+    "scripts": {
+      "start": "live-server --port=3000 --open=/index.html",
+      "dev": "live-server --port=3000 --open=/index.html --watch=assets/",
+      "build": "npm run minify-css && npm run minify-js && npm run optimize-images",
+      "minify-css": "cleancss -o assets/css/main.min.css assets/css/*.css",
+      "minify-js": "uglifyjs assets/js/*.js -o assets/js/main.min.js",
+      "optimize-images": "imagemin assets/images/**/* --out-dir=assets/images/optimized/",
+      "lint": "eslint assets/js/ --ext .js",
+      "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+      "validate": "html-validate *.html",
+      "serve": "http-server -p 8080 -o",
+      "deploy": "gh-pages -d .",
+      "test": "jest --coverage"
+    },
+    "keywords": [
+      "anime",
+      "recommendations",
+      "beginner-friendly",
+      "modern-web",
+      "responsive",
+      "entertainment",
+      "discovery",
+      "2025-design"
+    ],
+    "author": "Peter (StartAnime Developer)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/startanime.git"
+    },
+    "homepage": "https://yourusername.github.io/startanime",
+    "devDependencies": {
+      "live-server": "^1.2.2",
+      "clean-css-cli": "^5.6.2",
+      "uglify-js": "^3.17.4",
+      "imagemin-cli": "^7.0.0",
+      "imagemin-mozjpeg": "^10.0.0",
+      "imagemin-pngquant": "^9.0.2",
+      "imagemin-svgo": "^10.0.1",
+      "eslint": "^8.57.0",
+      "prettier": "^3.2.5",
+      "html-validate": "^8.9.1",
+      "http-server": "^14.1.1",
+      "gh-pages": "^6.1.1",
+      "jest": "^29.7.0",
+      "sass": "^1.70.0",
+      "autoprefixer": "^10.4.17",
+      "postcss": "^8.4.35",
+      "postcss-cli": "^11.0.0"
+    },
+    "dependencies": {
+      "aos": "^2.3.4",
+      "gsap": "^3.12.5",
+      "swiper": "^11.0.6",
+      "lottie-web": "^5.12.2",
+      "intersection-observer": "^0.12.2",
+      "vanilla-lazyload": "^17.8.8"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead",
+      "not ie <= 11"
+    ],
+    "engines": {
+      "node": ">=16.0.0",
+      "npm": ">=8.0.0"
+    },
+    "eslintConfig": {
+      "env": {
+        "browser": true,
+        "es2021": true
+      },
+      "extends": "eslint:recommended",
+      "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+      },
+      "rules": {
+        "no-console": "warn",
+        "no-unused-vars": "error",
+        "prefer-const": "error"
+      }
+    },
+    "prettier": {
+      "semi": true,
+      "trailingComma": "es5",
+      "singleQuote": true,
+      "printWidth": 80,
+      "tabWidth": 2
+    },
+    "jest": {
+      "testEnvironment": "jsdom",
+      "collectCoverageFrom": [
+        "assets/js/**/*.js",
+        "!assets/js/**/*.min.js"
+      ]
+    }
+  }

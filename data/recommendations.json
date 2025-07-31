@@ -1,0 +1,330 @@
+{
+    "metadata": {
+      "version": "1.0",
+      "lastUpdated": "2025-01-31",
+      "description": "StartAnime personalized recommendations database"
+    },
+    "categories": {
+      "hyped": {
+        "title": "Action-Packed Adventures",
+        "description": "High-energy anime with incredible fights, epic battles, and heart-pumping moments that will keep you on the edge of your seat!",
+        "mood": "hyped",
+        "anime": [
+          {
+            "id": "mob-psycho-100",
+            "title": "Mob Psycho 100",
+            "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop",
+            "rating": "9.1",
+            "episodes": "37",
+            "genres": ["Supernatural", "Action", "Comedy"],
+            "tags": ["Psychic Powers", "Coming of Age", "Stunning Animation"],
+            "description": "A psychic middle schooler tries to live a normal life while dealing with incredible supernatural powers. Amazing animation and emotional depth.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation"],
+            "year": "2016-2022",
+            "studio": "Bones",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "jujutsu-kaisen",
+            "title": "Jujutsu Kaisen",
+            "image": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=600&fit=crop",
+            "rating": "8.9",
+            "episodes": "24",
+            "genres": ["Supernatural", "Action", "School"],
+            "tags": ["Cursed Spirits", "Dark Magic", "Modern Setting"],
+            "description": "High school student joins a secret organization to fight cursed spirits. Perfect blend of horror, action, and friendship.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation"],
+            "year": "2020-2023",
+            "studio": "MAPPA",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "demon-slayer",
+            "title": "Demon Slayer",
+            "image": "https://images.unsplash.com/photo-1606207084380-2a3b727b4fbb?w=400&h=600&fit=crop",
+            "rating": "9.0",
+            "episodes": "32",
+            "genres": ["Action", "Historical", "Supernatural"],
+            "tags": ["Sword Fighting", "Family", "Beautiful Animation"],
+            "description": "A young boy becomes a demon slayer to save his sister and avenge his family. Breathtaking animation and emotional storytelling.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation", "Netflix"],
+            "year": "2019-2023",
+            "studio": "Ufotable",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "attack-on-titan",
+            "title": "Attack on Titan",
+            "image": "https://images.unsplash.com/photo-1606896879374-9ca0b7e95b6e?w=400&h=600&fit=crop",
+            "rating": "9.2",
+            "episodes": "87",
+            "genres": ["Action", "Drama", "Dark Fantasy"],
+            "tags": ["Giants", "Military", "Plot Twists"],
+            "description": "Humanity fights for survival against giant humanoid creatures. Complex plot with incredible character development and shocking revelations.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation", "Hulu"],
+            "year": "2013-2023",
+            "studio": "MAPPA/WIT Studio",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      "emotional": {
+        "title": "Heartfelt & Moving Stories",
+        "description": "Beautiful anime that will make you laugh, cry, and feel deeply. Perfect for when you want an emotional journey that stays with you.",
+        "mood": "emotional",
+        "anime": [
+          {
+            "id": "your-name",
+            "title": "Your Name",
+            "image": "https://images.unsplash.com/photo-1578670812003-60745b2c2e8d?w=400&h=600&fit=crop",
+            "rating": "9.3",
+            "episodes": "Movie",
+            "genres": ["Romance", "Drama", "Supernatural"],
+            "tags": ["Body Swap", "Beautiful Visuals", "Time Travel"],
+            "description": "Two teenagers share a profound connection through dreams. A masterpiece of animation with an unforgettable love story.",
+            "streamingPlatforms": ["Funimation", "Amazon Prime"],
+            "year": "2016",
+            "studio": "CoMix Wave Films",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "violet-evergarden",
+            "title": "Violet Evergarden",
+            "image": "https://images.unsplash.com/photo-1578670812003-60745b2c2e8d?w=400&h=600&fit=crop",
+            "rating": "9.1",
+            "episodes": "13",
+            "genres": ["Drama", "Fantasy", "Slice of Life"],
+            "tags": ["Post-War", "Letters", "Emotional Growth"],
+            "description": "A former soldier learns to understand emotions by writing letters for others. Absolutely stunning animation and deeply moving stories.",
+            "streamingPlatforms": ["Netflix"],
+            "year": "2018",
+            "studio": "Kyoto Animation",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "a-silent-voice",
+            "title": "A Silent Voice",
+            "image": "https://images.unsplash.com/photo-1606896847049-8bf5db2c3d97?w=400&h=600&fit=crop",
+            "rating": "9.0",
+            "episodes": "Movie",
+            "genres": ["Drama", "Romance", "School"],
+            "tags": ["Redemption", "Disability", "Friendship"],
+            "description": "A touching story about bullying, redemption, and the power of communication. Handles serious topics with incredible sensitivity.",
+            "streamingPlatforms": ["Netflix", "Funimation"],
+            "year": "2016",
+            "studio": "Kyoto Animation",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "anohana",
+            "title": "AnoHana",
+            "image": "https://images.unsplash.com/photo-1606896879374-9ca0b7e95b6e?w=400&h=600&fit=crop",
+            "rating": "8.8",
+            "episodes": "11",
+            "genres": ["Drama", "Slice of Life", "Supernatural"],
+            "tags": ["Childhood Friends", "Loss", "Growing Up"],
+            "description": "Childhood friends reunite to help the spirit of their deceased friend. A beautiful story about grief, friendship, and moving on.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation"],
+            "year": "2011",
+            "studio": "A-1 Pictures",
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      "comedy": {
+        "title": "Fun & Lighthearted",
+        "description": "Hilarious anime that will brighten your day! Perfect for relaxing and having a good laugh with lovable characters and silly situations.",
+        "mood": "comedy",
+        "anime": [
+          {
+            "id": "one-punch-man",
+            "title": "One Punch Man",
+            "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop",
+            "rating": "8.9",
+            "episodes": "24",
+            "genres": ["Action", "Comedy", "Superhero"],
+            "tags": ["Overpowered Hero", "Parody", "Incredible Animation"],
+            "description": "A hero who can defeat any enemy with one punch struggles with boredom. Hilarious parody of superhero tropes with amazing fight scenes.",
+            "streamingPlatforms": ["Crunchyroll", "Hulu", "Netflix"],
+            "year": "2015-2019",
+            "studio": "Madhouse/J.C.Staff",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "spy-family",
+            "title": "Spy x Family",
+            "image": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=600&fit=crop",
+            "rating": "9.0",
+            "episodes": "25",
+            "genres": ["Action", "Comedy", "Family"],
+            "tags": ["Fake Family", "Spies", "Wholesome"],
+            "description": "A spy, assassin, and telepath form a fake family for their missions. Heartwarming comedy with adorable family moments and action.",
+            "streamingPlatforms": ["Crunchyroll", "Hulu"],
+            "year": "2022-2023",
+            "studio": "WIT Studio/CloverWorks",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "konosuba",
+            "title": "KonoSuba",
+            "image": "https://images.unsplash.com/photo-1606207084380-2a3b727b4fbb?w=400&h=600&fit=crop",
+            "rating": "8.7",
+            "episodes": "20",
+            "genres": ["Comedy", "Fantasy", "Isekai"],
+            "tags": ["Parody", "Useless Goddess", "Adventure"],
+            "description": "A shut-in gets transported to a fantasy world with a useless goddess. Hilarious parody of fantasy anime with lovable idiotic characters.",
+            "streamingPlatforms": ["Crunchyroll"],
+            "year": "2016-2017",
+            "studio": "Studio Deen",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "kaguya-sama",
+            "title": "Kaguya-sama: Love is War",
+            "image": "https://images.unsplash.com/photo-1578670812003-60745b2c2e8d?w=400&h=600&fit=crop",
+            "rating": "8.9",
+            "episodes": "36",
+            "genres": ["Comedy", "Romance", "School"],
+            "tags": ["Mind Games", "Student Council", "Rom-Com"],
+            "description": "Two student council members engage in psychological warfare to make the other confess first. Brilliant comedy with clever writing and great romance.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation"],
+            "year": "2019-2022",
+            "studio": "A-1 Pictures",
+            "difficulty": "beginner"
+          }
+        ]
+      },
+      "short": {
+        "title": "Quick & Complete Stories",
+        "description": "Fantastic anime with shorter episode counts that tell complete, satisfying stories. Perfect for when you want something amazing but not too long!",
+        "mood": "short",
+        "anime": [
+          {
+            "id": "erased",
+            "title": "Erased",
+            "image": "https://images.unsplash.com/photo-1606896847049-8bf5db2c3d97?w=400&h=600&fit=crop",
+            "rating": "8.8",
+            "episodes": "12",
+            "genres": ["Mystery", "Thriller", "Supernatural"],
+            "tags": ["Time Travel", "Murder Mystery", "Childhood"],
+            "description": "A man travels back in time to prevent childhood murders. Gripping thriller with excellent pacing and emotional depth.",
+            "streamingPlatforms": ["Crunchyroll", "Netflix", "Hulu"],
+            "year": "2016",
+            "studio": "A-1 Pictures",
+            "difficulty": "beginner"
+          },
+          {
+            "id": "death-parade",
+            "title": "Death Parade",
+            "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop",
+            "rating": "8.6",
+            "episodes": "12",
+            "genres": ["Drama", "Psychological", "Supernatural"],
+            "tags": ["Afterlife", "Moral Dilemmas", "Games"],
+            "description": "Souls play games in the afterlife to determine their fate. Thought-provoking series that explores human nature and morality.",
+            "streamingPlatforms": ["Crunchyroll", "Funimation"],
+            "year": "2015",
+            "studio": "Madhouse",
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "odd-taxi",
+            "title": "Odd Taxi",
+            "image": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=600&fit=crop",
+            "rating": "8.9",
+            "episodes": "13",
+            "genres": ["Mystery", "Drama", "Slice of Life"],
+            "tags": ["Animal Characters", "Complex Plot", "Realistic"],
+            "description": "A walrus taxi driver gets involved in a missing person case. Unique art style with an incredibly complex and rewarding mystery plot.",
+            "streamingPlatforms": ["Crunchyroll"],
+            "year": "2021",
+            "studio": "P.I.C.S./Studio Oden",
+            "difficulty": "intermediate"
+          },
+          {
+            "id": "devilman-crybaby",
+            "title": "Devilman Crybaby",
+            "image": "https://images.unsplash.com/photo-1606207084380-2a3b727b4fbb?w=400&h=600&fit=crop",
+            "rating": "8.4",
+            "episodes": "10",
+            "genres": ["Action", "Horror", "Supernatural"],
+            "tags": ["Demons", "Dark", "Unique Art"],
+            "description": "A kind-hearted boy becomes a demon to fight other demons. Intense and mature themes with striking animation style.",
+            "streamingPlatforms": ["Netflix"],
+            "year": "2018",
+            "studio": "Science SARU",
+            "difficulty": "advanced",
+            "warning": "Contains mature content"
+          }
+        ]
+      }
+    },
+    "searchTags": [
+      "action",
+      "comedy",
+      "romance",
+      "drama",
+      "fantasy",
+      "supernatural",
+      "school",
+      "slice of life",
+      "thriller",
+      "mystery",
+      "psychological",
+      "adventure",
+      "family",
+      "friendship",
+      "coming of age",
+      "time travel",
+      "magic",
+      "demons",
+      "spirits",
+      "military",
+      "historical",
+      "modern",
+      "post-war",
+      "redemption",
+      "loss",
+      "growing up",
+      "parody",
+      "mind games",
+      "afterlife",
+      "moral dilemmas"
+    ],
+    "streamingPlatforms": [
+      "Crunchyroll",
+      "Funimation",
+      "Netflix",
+      "Hulu",
+      "Amazon Prime"
+    ],
+    "difficultyLevels": {
+      "beginner": {
+        "description": "Perfect for anime newcomers",
+        "characteristics": [
+          "Easy to follow plot",
+          "Clear character motivations",
+          "Mainstream appeal",
+          "Good English dubbing available"
+        ]
+      },
+      "intermediate": {
+        "description": "For viewers with some anime experience",
+        "characteristics": [
+          "More complex themes",
+          "Cultural references",
+          "Deeper character development",
+          "Some anime tropes"
+        ]
+      },
+      "advanced": {
+        "description": "For experienced anime watchers",
+        "characteristics": [
+          "Complex narratives",
+          "Heavy cultural context",
+          "Mature themes",
+          "Unconventional storytelling"
+        ]
+      }
+    }
+  }

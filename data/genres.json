@@ -1,0 +1,325 @@
+{
+    "genres": {
+      "shounen": {
+        "id": "shounen",
+        "name": "Shounen",
+        "description": "Action-packed adventures aimed at young males, featuring friendship, determination, and epic battles.",
+        "icon": "⚡",
+        "color": "#6366f1",
+        "difficulty": "beginner",
+        "popularity": "very-high",
+        "characteristics": [
+          "High-energy action sequences",
+          "Themes of friendship and rivalry",
+          "Coming-of-age stories",
+          "Tournament arcs and power progression",
+          "Clear good vs evil narratives"
+        ],
+        "perfect_for": [
+          "First-time anime watchers",
+          "Action movie fans",
+          "Those who love underdog stories"
+        ],
+        "examples": [
+          {
+            "title": "My Hero Academia",
+            "reason": "Superhero academy with inspiring themes"
+          },
+          {
+            "title": "Demon Slayer",
+            "reason": "Beautiful animation with emotional depth"
+          },
+          {
+            "title": "Jujutsu Kaisen",
+            "reason": "Modern supernatural action"
+          }
+        ],
+        "watch_if": "You love action, adventure, and stories about never giving up"
+      },
+      "slice-of-life": {
+        "id": "slice-of-life",
+        "name": "Slice of Life",
+        "description": "Calm, everyday situations that focus on character development and peaceful storytelling.",
+        "icon": "🌸",
+        "color": "#ec4899",
+        "difficulty": "beginner",
+        "popularity": "medium",
+        "characteristics": [
+          "Realistic everyday scenarios",
+          "Character-driven narratives",
+          "Peaceful and relaxing atmosphere",
+          "Focus on relationships and growth",
+          "Minimal conflict or drama"
+        ],
+        "perfect_for": [
+          "Those seeking relaxation",
+          "Character development enthusiasts",
+          "Fans of wholesome content"
+        ],
+        "examples": [
+          {
+            "title": "Violet Evergarden",
+            "reason": "Beautiful story about finding emotions"
+          },
+          {
+            "title": "Spy x Family",
+            "reason": "Wholesome family dynamics with comedy"
+          }
+        ],
+        "watch_if": "You want something calm, heartwarming, and character-focused"
+      },
+      "isekai": {
+        "id": "isekai",
+        "name": "Isekai",
+        "description": "Fantasy worlds where characters are transported or reborn into different realms with unique rules.",
+        "icon": "🗡️",
+        "color": "#3b82f6",
+        "difficulty": "beginner",
+        "popularity": "high",
+        "characteristics": [
+          "Transported to another world",
+          "Fantasy or game-like settings",
+          "Overpowered protagonists",
+          "World-building and exploration",
+          "Often includes RPG elements"
+        ],
+        "perfect_for": [
+          "Fantasy and gaming enthusiasts",
+          "Those who love world-building",
+          "Escapism seekers"
+        ],
+        "examples": [
+          {
+            "title": "KonoSuba",
+            "reason": "Comedy take on isekai tropes"
+          }
+        ],
+        "watch_if": "You love fantasy worlds, gaming, and escapist adventures"
+      },
+      "romance": {
+        "id": "romance",
+        "name": "Romance",
+        "description": "Love stories and relationships that explore the complexities of human connections.",
+        "icon": "💕",
+        "color": "#10b981",
+        "difficulty": "beginner",
+        "popularity": "high",
+        "characteristics": [
+          "Focus on romantic relationships",
+          "Emotional character development",
+          "Relationship dynamics",
+          "Often includes comedy elements",
+          "Heartwarming moments"
+        ],
+        "perfect_for": [
+          "Romance novel readers",
+          "Those who love relationship stories",
+          "Fans of emotional content"
+        ],
+        "examples": [
+          {
+            "title": "Your Name",
+            "reason": "Beautiful supernatural romance story"
+          },
+          {
+            "title": "Kaguya-sama: Love is War",
+            "reason": "Comedy romance with mind games"
+          }
+        ],
+        "watch_if": "You enjoy love stories, character relationships, and emotional moments"
+      },
+      "seinen": {
+        "id": "seinen",
+        "name": "Seinen",
+        "description": "Mature themes and complex narratives designed for adult audiences with sophisticated storytelling.",
+        "icon": "🎭",
+        "color": "#f59e0b",
+        "difficulty": "intermediate",
+        "popularity": "medium-high",
+        "characteristics": [
+          "Complex and mature themes",
+          "Psychological depth",
+          "Realistic character motivations",
+          "Social commentary",
+          "Sophisticated storytelling"
+        ],
+        "perfect_for": [
+          "Adult audiences",
+          "Those seeking deeper themes",
+          "Fans of psychological content"
+        ],
+        "examples": [
+          {
+            "title": "One Punch Man",
+            "reason": "Satirical take on superhero genre"
+          },
+          {
+            "title": "Mob Psycho 100",
+            "reason": "Coming-of-age with supernatural elements"
+          }
+        ],
+        "watch_if": "You want mature themes, complex characters, and thought-provoking content"
+      },
+      "comedy": {
+        "id": "comedy",
+        "name": "Comedy",
+        "description": "Lighthearted entertainment focusing on humor, jokes, and amusing situations.",
+        "icon": "😄",
+        "color": "#8b5cf6",
+        "difficulty": "beginner",
+        "popularity": "high",
+        "characteristics": [
+          "Humor-focused storytelling",
+          "Lighthearted atmosphere",
+          "Comedic timing and gags",
+          "Often parodies other genres",
+          "Feel-good entertainment"
+        ],
+        "perfect_for": [
+          "Those seeking entertainment",
+          "Comedy show fans",
+          "Stress relief seekers"
+        ],
+        "examples": [
+          {
+            "title": "One Punch Man",
+            "reason": "Parody of superhero action anime"
+          },
+          {
+            "title": "Spy x Family",
+            "reason": "Family comedy with wholesome humor"
+          }
+        ],
+        "watch_if": "You want to laugh, relax, and enjoy lighthearted entertainment"
+      },
+      "action": {
+        "id": "action",
+        "name": "Action",
+        "description": "High-energy sequences with intense battles, fights, and adrenaline-pumping scenes.",
+        "icon": "⚔️",
+        "color": "#ef4444",
+        "difficulty": "beginner",
+        "popularity": "very-high",
+        "characteristics": [
+          "Intense fight sequences",
+          "Fast-paced storytelling",
+          "Physical confrontations",
+          "High stakes and tension",
+          "Spectacular visual effects"
+        ],
+        "perfect_for": [
+          "Action movie fans",
+          "Adrenaline seekers",
+          "Those who love spectacular fights"
+        ],
+        "examples": [
+          {
+            "title": "Demon Slayer",
+            "reason": "Beautifully animated sword fights"
+          },
+          {
+            "title": "Attack on Titan",
+            "reason": "Intense survival action"
+          }
+        ],
+        "watch_if": "You love intense battles, high stakes, and adrenaline-pumping scenes"
+      },
+      "supernatural": {
+        "id": "supernatural",
+        "name": "Supernatural",
+        "description": "Stories involving paranormal elements, magic, spirits, and otherworldly phenomena.",
+        "icon": "👻",
+        "color": "#6366f1",
+        "difficulty": "beginner",
+        "popularity": "high",
+        "characteristics": [
+          "Paranormal elements",
+          "Magic and supernatural powers",
+          "Spirits and otherworldly beings",
+          "Mystery and unexplained phenomena",
+          "Fantasy elements in modern settings"
+        ],
+        "perfect_for": [
+          "Fantasy enthusiasts",
+          "Supernatural thriller fans",
+          "Those who love mystery"
+        ],
+        "examples": [
+          {
+            "title": "Jujutsu Kaisen",
+            "reason": "Modern supernatural action with curses"
+          },
+          {
+            "title": "Mob Psycho 100",
+            "reason": "Psychic powers and spirits"
+          }
+        ],
+        "watch_if": "You're fascinated by magic, spirits, and supernatural mysteries"
+      }
+    },
+    "mood_based_recommendations": {
+      "excited": {
+        "title": "Feeling Hyped?",
+        "description": "Ready for some intense action and adrenaline?",
+        "recommended_genres": ["shounen", "action", "supernatural"],
+        "color": "#ef4444",
+        "icon": "🔥"
+      },
+      "emotional": {
+        "title": "Want Something Emotional?",
+        "description": "Looking for stories that tug at your heartstrings?",
+        "recommended_genres": ["romance", "slice-of-life", "drama"],
+        "color": "#ec4899",
+        "icon": "💫"
+      },
+      "relaxed": {
+        "title": "Prefer Comedy and Chill?",
+        "description": "Want to laugh and have a good time?",
+        "recommended_genres": ["comedy", "slice-of-life", "romance"],
+        "color": "#10b981",
+        "icon": "😊"
+      },
+      "quick": {
+        "title": "Just Want Something Short?",
+        "description": "Looking for complete stories you can finish quickly?",
+        "recommended_genres": ["thriller", "mystery", "psychological"],
+        "color": "#8b5cf6",
+        "icon": "⏱️"
+      }
+    },
+    "difficulty_progression": {
+      "beginner": {
+        "title": "Perfect for Newcomers",
+        "description": "Easy to follow with universal themes",
+        "color": "#10b981",
+        "genres": ["shounen", "comedy", "romance", "slice-of-life"],
+        "tips": [
+          "Start with shorter series (12-26 episodes)",
+          "Look for dubbed versions if you prefer",
+          "Don't worry about anime tropes yet"
+        ]
+      },
+      "intermediate": {
+        "title": "Ready for More",
+        "description": "Some anime experience helpful",
+        "color": "#f59e0b",
+        "genres": ["seinen", "thriller", "mystery"],
+        "tips": [
+          "You'll recognize some common anime conventions",
+          "More complex storylines and themes",
+          "Character development becomes more nuanced"
+        ]
+      },
+      "advanced": {
+        "title": "For Anime Veterans",
+        "description": "Complex narratives and cultural references",
+        "color": "#ef4444",
+        "genres": ["psychological", "experimental"],
+        "tips": [
+          "Heavy use of Japanese cultural references",
+          "Complex philosophical themes",
+          "May require multiple viewings to fully appreciate"
+        ]
+      }
+    }
+  }

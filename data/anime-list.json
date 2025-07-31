@@ -1,0 +1,295 @@
+{
+    "featured": [
+      {
+        "id": "demon-slayer",
+        "title": "Demon Slayer",
+        "subtitle": "Kimetsu no Yaiba",
+        "description": "Beautiful animation meets emotional storytelling in this tale of a young boy who becomes a demon slayer to save his sister.",
+        "genre": ["shounen", "action", "supernatural"],
+        "rating": 9.2,
+        "episodes": 44,
+        "year": 2019,
+        "status": "ongoing",
+        "difficulty": "beginner",
+        "image": "https://via.placeholder.com/300x400/6366f1/ffffff?text=Demon+Slayer",
+        "reasons": [
+          "Stunning animation by Ufotable",
+          "Emotional and relatable characters",
+          "Perfect balance of action and heart"
+        ],
+        "tags": ["beautiful animation", "emotional", "action-packed"]
+      },
+      {
+        "id": "fullmetal-alchemist-brotherhood",
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "subtitle": "Hagane no Renkinjutsushi",
+        "description": "Two brothers use alchemy in their quest to find the Philosopher's Stone and restore their bodies after a failed experiment.",
+        "genre": ["shounen", "action", "adventure", "drama"],
+        "rating": 9.5,
+        "episodes": 64,
+        "year": 2009,
+        "status": "completed",
+        "difficulty": "beginner",
+        "image": "https://via.placeholder.com/300x400/ec4899/ffffff?text=FMA+Brotherhood",
+        "reasons": [
+          "Perfect storytelling with no filler",
+          "Complex but accessible plot",
+          "Incredible character development"
+        ],
+        "tags": ["masterpiece", "adventure", "brotherhood"]
+      },
+      {
+        "id": "my-hero-academia",
+        "title": "My Hero Academia",
+        "subtitle": "Boku no Hero Academia",
+        "description": "In a world where superpowers are common, a powerless boy enrolls in a prestigious hero academy to become the greatest hero.",
+        "genre": ["shounen", "superhero", "school"],
+        "rating": 8.8,
+        "episodes": 138,
+        "year": 2016,
+        "status": "ongoing",
+        "difficulty": "beginner",
+        "image": "https://via.placeholder.com/300x400/3b82f6/ffffff?text=My+Hero+Academia",
+        "reasons": [
+          "Familiar superhero concept",
+          "Inspirational underdog story",
+          "Easy to follow progression"
+        ],
+        "tags": ["superhero", "school", "inspirational"]
+      },
+      {
+        "id": "one-punch-man",
+        "title": "One Punch Man",
+        "subtitle": "Wanpanman",
+        "description": "A superhero who can defeat any enemy with a single punch struggles with the mundane problems this power brings.",
+        "genre": ["seinen", "comedy", "action", "superhero"],
+        "rating": 9.0,
+        "episodes": 24,
+        "year": 2015,
+        "status": "ongoing",
+        "difficulty": "beginner",
+        "image": "https://via.placeholder.com/300x400/10b981/ffffff?text=One+Punch+Man",
+        "reasons": [
+          "Unique comedy take on superhero genre",
+          "Amazing action sequences",
+          "Parodies anime tropes perfectly"
+        ],
+        "tags": ["comedy", "parody", "overpowered"]
+      },
+      {
+        "id": "attack-on-titan",
+        "title": "Attack on Titan",
+        "subtitle": "Shingeki no Kyojin",
+        "description": "Humanity fights for survival against giant humanoid Titans behind massive walls in this intense thriller.",
+        "genre": ["shounen", "action", "drama", "thriller"],
+        "rating": 9.3,
+        "episodes": 75,
+        "year": 2013,
+        "status": "completed",
+        "difficulty": "intermediate",
+        "image": "https://via.placeholder.com/300x400/ef4444/ffffff?text=Attack+on+Titan",
+        "reasons": [
+          "Incredible plot twists",
+          "Intense and gripping story",
+          "Phenomenal world-building"
+        ],
+        "tags": ["intense", "plot twists", "survival"]
+      }
+    ],
+    "recommendations": {
+      "hyped": [
+        {
+          "id": "mob-psycho-100",
+          "title": "Mob Psycho 100",
+          "description": "A powerful psychic middle schooler tries to live a normal life while dealing with supernatural threats.",
+          "genre": ["seinen", "supernatural", "comedy"],
+          "rating": 9.1,
+          "episodes": 37,
+          "year": 2016,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/8b5cf6/ffffff?text=Mob+Psycho+100",
+          "tags": ["psychic powers", "coming of age", "unique art"]
+        },
+        {
+          "id": "jujutsu-kaisen",
+          "title": "Jujutsu Kaisen",
+          "description": "Students at a supernatural school fight cursed spirits in this modern take on exorcism.",
+          "genre": ["shounen", "supernatural", "action"],
+          "rating": 8.9,
+          "episodes": 24,
+          "year": 2020,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/6366f1/ffffff?text=Jujutsu+Kaisen",
+          "tags": ["curses", "school", "modern supernatural"]
+        },
+        {
+          "id": "hunter-x-hunter",
+          "title": "Hunter x Hunter",
+          "description": "A young boy searches for his father while becoming a Hunter in a world full of dangerous creatures and mysteries.",
+          "genre": ["shounen", "adventure", "fantasy"],
+          "rating": 9.4,
+          "episodes": 148,
+          "year": 2011,
+          "difficulty": "intermediate",
+          "image": "https://via.placeholder.com/300x400/f59e0b/ffffff?text=Hunter+x+Hunter",
+          "tags": ["adventure", "complex", "father-son"]
+        }
+      ],
+      "emotional": [
+        {
+          "id": "your-name",
+          "title": "Your Name",
+          "subtitle": "Kimi no Na wa",
+          "description": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies.",
+          "genre": ["romance", "supernatural", "drama"],
+          "rating": 8.4,
+          "episodes": 1,
+          "type": "movie",
+          "year": 2016,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/ec4899/ffffff?text=Your+Name",
+          "tags": ["romance", "body swap", "beautiful"]
+        },
+        {
+          "id": "violet-evergarden",
+          "title": "Violet Evergarden",
+          "description": "A former soldier works as an Auto Memory Doll, writing letters for others while discovering her own emotions.",
+          "genre": ["drama", "slice-of-life", "military"],
+          "rating": 8.7,
+          "episodes": 13,
+          "year": 2018,
+          "difficulty": "intermediate",
+          "image": "https://via.placeholder.com/300x400/8b5cf6/ffffff?text=Violet+Evergarden",
+          "tags": ["emotional", "letters", "healing"]
+        },
+        {
+          "id": "spirited-away",
+          "title": "Spirited Away",
+          "subtitle": "Sen to Chihiro no Kamikakushi",
+          "description": "A young girl must work in a bathhouse for spirits to save her parents in this Studio Ghibli masterpiece.",
+          "genre": ["adventure", "family", "supernatural"],
+          "rating": 9.3,
+          "episodes": 1,
+          "type": "movie",
+          "year": 2001,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/10b981/ffffff?text=Spirited+Away",
+          "tags": ["Studio Ghibli", "family", "magical"]
+        }
+      ],
+      "comedy": [
+        {
+          "id": "spy-x-family",
+          "title": "Spy x Family",
+          "description": "A spy, an assassin, and a telepath form a fake family, unaware of each other's true identities.",
+          "genre": ["comedy", "action", "family"],
+          "rating": 8.8,
+          "episodes": 25,
+          "year": 2022,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/ec4899/ffffff?text=Spy+x+Family",
+          "tags": ["family", "wholesome", "comedy"]
+        },
+        {
+          "id": "kaguya-sama",
+          "title": "Kaguya-sama: Love is War",
+          "description": "Two elite students engage in psychological warfare to make the other confess their love first.",
+          "genre": ["romance", "comedy", "school"],
+          "rating": 8.9,
+          "episodes": 37,
+          "year": 2019,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/3b82f6/ffffff?text=Kaguya-sama",
+          "tags": ["romance", "mind games", "school"]
+        },
+        {
+          "id": "konosuba",
+          "title": "KonoSuba",
+          "subtitle": "God's Blessing on This Wonderful World!",
+          "description": "A shut-in gamer is transported to a fantasy world with a useless goddess and eccentric companions.",
+          "genre": ["isekai", "comedy", "adventure"],
+          "rating": 8.6,
+          "episodes": 20,
+          "year": 2016,
+          "difficulty": "beginner",
+          "image": "https://via.placeholder.com/300x400/f59e0b/ffffff?text=KonoSuba",
+          "tags": ["isekai", "parody", "adventure"]
+        }
+      ],
+      "short": [
+        {
+          "id": "erased",
+          "title": "Erased",
+          "subtitle": "Boku dake ga Inai Machi",
+          "description": "A struggling manga artist goes back in time to prevent a series of kidnappings from his childhood.",
+          "genre": ["thriller", "supernatural", "mystery"],
+          "rating": 8.6,
+          "episodes": 12,
+          "year": 2016,
+          "difficulty": "intermediate",
+          "image": "https://via.placeholder.com/300x400/374151/ffffff?text=Erased",
+          "tags": ["time travel", "mystery", "thriller"]
+        },
+        {
+          "id": "death-parade",
+          "title": "Death Parade",
+          "description": "Souls play games to determine their fate in the afterlife in this psychological thriller.",
+          "genre": ["psychological", "thriller", "supernatural"],
+          "rating": 8.4,
+          "episodes": 12,
+          "year": 2015,
+          "difficulty": "advanced",
+          "image": "https://via.placeholder.com/300x400/111827/ffffff?text=Death+Parade",
+          "tags": ["psychological", "afterlife", "moral dilemmas"]
+        },
+        {
+          "id": "oddtaxi",
+          "title": "Odd Taxi",
+          "description": "A walrus taxi driver gets involved in a mystery involving missing persons and the yakuza.",
+          "genre": ["mystery", "drama", "anthropomorphic"],
+          "rating": 8.9,
+          "episodes": 13,
+          "year": 2021,
+          "difficulty": "advanced",
+          "image": "https://via.placeholder.com/300x400/d1d5db/000000?text=Odd+Taxi",
+          "tags": ["mystery", "anthropomorphic", "unique"]
+        }
+      ]
+    },
+    "genres": {
+      "shounen": {
+        "examples": ["demon-slayer", "my-hero-academia", "jujutsu-kaisen"],
+        "difficulty": "beginner"
+      },
+      "seinen": {
+        "examples": ["one-punch-man", "mob-psycho-100"],
+        "difficulty": "intermediate"
+      },
+      "slice-of-life": {
+        "examples": ["violet-evergarden"],
+        "difficulty": "beginner"
+      },
+      "isekai": {
+        "examples": ["konosuba"],
+        "difficulty": "beginner"
+      },
+      "romance": {
+        "examples": ["your-name", "kaguya-sama"],
+        "difficulty": "beginner"
+      }
+    },
+    "difficulty_guide": {
+      "beginner": {
+        "description": "Perfect for anime newcomers",
+        "characteristics": ["Easy to follow", "Universal themes", "Clear storytelling"]
+      },
+      "intermediate": {
+        "description": "For those with some anime experience",
+        "characteristics": ["More complex themes", "Anime-specific tropes", "Deeper storytelling"]
+      },
+      "advanced": {
+        "description": "For experienced anime watchers",
+        "characteristics": ["Complex narratives", "Heavy themes", "Requires cultural context"]
+      }
+    }
+  }

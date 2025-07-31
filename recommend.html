@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get personalized anime recommendations based on your mood and preferences">
+    <title>Find Your Perfect Anime | StartAnime</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/recommendations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">
+                    <span class="brand-icon">🌟</span>
+                    <span class="brand-text">StartAnime</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="recommend.html" class="nav-link">Recommendations</a>
+                <a href="#" class="nav-link">Browse</a>
+                <a href="#" class="nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-recommendations">
+        <div class="hero-bg-gradient"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Find Your Perfect Anime</h1>
+                <p class="hero-subtitle">Tell us how you're feeling and we'll recommend the perfect anime for your mood</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mood-Based Recommendations -->
+    <section class="recommendations-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What's Your Mood?</h2>
+                <p class="section-subtitle">Choose how you're feeling right now and discover anime that matches your vibe</p>
+            </div>
+
+            <div class="mood-grid">
+                <!-- Feeling Hyped -->
+                <div class="mood-card" data-mood="hyped">
+                    <div class="mood-icon">⚡</div>
+                    <h3 class="mood-title">Feeling Hyped?</h3>
+                    <p class="mood-description">Ready for intense action and epic battles</p>
+                    <div class="mood-anime-preview">
+                        <div class="preview-images">
+                            <div class="preview-img">🗡️</div>
+                            <div class="preview-img">👊</div>
+                            <div class="preview-img">⚔️</div>
+                        </div>
+                        <span class="preview-text">Action • Adventure • Shounen</span>
+                    </div>
+                    <button class="mood-btn btn-primary">Get Action Anime</button>
+                </div>
+
+                <!-- Want Something Emotional -->
+                <div class="mood-card" data-mood="emotional">
+                    <div class="mood-icon">💖</div>
+                    <h3 class="mood-title">Want Something Emotional?</h3>
+                    <p class="mood-description">Looking for stories that touch your heart</p>
+                    <div class="mood-anime-preview">
+                        <div class="preview-images">
+                            <div class="preview-img">🌸</div>
+                            <div class="preview-img">💫</div>
+                            <div class="preview-img">🎭</div>
+                        </div>
+                        <span class="preview-text">Drama • Romance • Slice of Life</span>
+                    </div>
+                    <button class="mood-btn btn-primary">Get Drama Anime</button>
+                </div>
+
+                <!-- Prefer Comedy and Chill -->
+                <div class="mood-card" data-mood="chill">
+                    <div class="mood-icon">😄</div>
+                    <h3 class="mood-title">Prefer Comedy & Chill?</h3>
+                    <p class="mood-description">Want to laugh and have a good time</p>
+                    <div class="mood-anime-preview">
+                        <div class="preview-images">
+                            <div class="preview-img">😂</div>
+                            <div class="preview-img">🎪</div>
+                            <div class="preview-img">🎭</div>
+                        </div>
+                        <span class="preview-text">Comedy • Slice of Life • Parody</span>
+                    </div>
+                    <button class="mood-btn btn-primary">Get Comedy Anime</button>
+                </div>
+
+                <!-- Just Want Something Short -->
+                <div class="mood-card" data-mood="short">
+                    <div class="mood-icon">⏰</div>
+                    <h3 class="mood-title">Just Want Something Short?</h3>
+                    <p class="mood-description">Perfect for a quick anime experience</p>
+                    <div class="mood-anime-preview">
+                        <div class="preview-images">
+                            <div class="preview-img">🎬</div>
+                            <div class="preview-img">⭐</div>
+                            <div class="preview-img">🔥</div>
+                        </div>
+                        <span class="preview-text">Movies • Short Series • OVAs</span>
+                    </div>
+                    <button class="mood-btn btn-primary">Get Short Anime</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Results (Hidden by default) -->
+    <section class="recommendations-results" id="results-section" style="display: none;">
+        <div class="container">
+            <div class="results-header">
+                <h2 class="results-title">Perfect Matches for You</h2>
+                <p class="results-subtitle">Based on your mood, here are our top recommendations</p>
+            </div>
+
+            <div class="results-grid" id="results-grid">
+                <!-- Results will be populated by JavaScript -->
+            </div>
+
+            <div class="results-actions">
+                <button class="btn-secondary" onclick="resetRecommendations()">Try Different Mood</button>
+                <button class="btn-primary">Get More Recommendations</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start Guide -->
+    <section class="quick-start-section">
+        <div class="container">
+            <div class="quick-start-card">
+                <div class="quick-start-content">
+                    <h2 class="quick-start-title">New to Anime?</h2>
+                    <p class="quick-start-text">Don't worry! We've curated the perfect starting points for complete beginners. These anime are chosen specifically for their accessibility and quality.</p>
+                    <a href="index.html#top-anime" class="btn-outline">See Beginner Guide</a>
+                </div>
+                <div class="quick-start-visual">
+                    <div class="floating-elements">
+                        <div class="floating-element">🌟</div>
+                        <div class="floating-element">⭐</div>
+                        <div class="floating-element">✨</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-icon">🌟</span>
+                    <span class="brand-text">StartAnime</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="recommend.html" class="footer-link">Recommendations</a>
+                    <a href="#" class="footer-link">Browse</a>
+                    <a href="#" class="footer-link">About</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 StartAnime. Made with 💜 for anime beginners.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/recommendations.js"></script>
+</body>
+</html>

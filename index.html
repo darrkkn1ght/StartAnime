@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartAnime - Your Gateway to Anime</title>
+    <meta name="description" content="Discover amazing anime perfect for beginners. Find your next favorite series with personalized recommendations.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="nav-logo">StartAnime</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#why-anime" class="nav-link">Why Anime?</a>
+                <a href="#top-anime" class="nav-link">Top Picks</a>
+                <a href="#genres" class="nav-link">Genres</a>
+                <a href="recommend.html" class="btn btn-primary nav-cta">Get Recommendations</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="floating-elements">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Welcome to the Amazing World of <span class="gradient-text">Anime</span>
+            </h1>
+            <p class="hero-subtitle">
+                New to anime? Start your journey here. Discover incredible stories, unforgettable characters, and find your perfect first anime.
+            </p>
+            <div class="hero-actions">
+                <a href="#top-anime" class="btn btn-primary btn-large">Explore Top Picks</a>
+                <a href="#why-anime" class="btn btn-secondary btn-large">Why Watch Anime?</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Watch Anime Section -->
+    <section id="why-anime" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Watch Anime?</h2>
+                <p class="section-subtitle">Discover what makes anime special and why millions of people around the world love it</p>
+            </div>
+            
+            <div class="cards-grid">
+                <div class="card hover-lift fade-in">
+                    <div class="card-icon">🎨</div>
+                    <h3 class="card-title">Stunning Art & Animation</h3>
+                    <p class="card-text">Experience breathtaking visuals and fluid animation that brings stories to life like nothing else. Every frame is crafted with incredible attention to detail.</p>
+                </div>
+                
+                <div class="card hover-lift fade-in">
+                    <div class="card-icon">❤️</div>
+                    <h3 class="card-title">Deep Emotional Stories</h3>
+                    <p class="card-text">Anime explores complex themes and emotions that resonate deeply. From heartwarming friendships to epic adventures, there's something for everyone.</p>
+                </div>
+                
+                <div class="card hover-lift fade-in">
+                    <div class="card-icon">🌍</div>
+                    <h3 class="card-title">Diverse Worlds & Genres</h3>
+                    <p class="card-text">Enter countless unique worlds - from modern-day slice of life to fantasy realms and sci-fi futures. Every genre offers something completely different.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top 5 Beginner Anime Section -->
+    <section id="top-anime" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Top 5 Perfect Starter Anime</h2>
+                <p class="section-subtitle">Handpicked series that are perfect for anime newcomers</p>
+            </div>
+            
+            <div class="anime-grid">
+                <div class="anime-card hover-lift fade-in" data-anime="demon-slayer">
+                    <div class="anime-card-image">
+                        <div class="anime-placeholder" style="background: linear-gradient(135deg, #ff6b6b, #ffd93d);">
+                            <span class="anime-number">1</span>
+                        </div>
+                    </div>
+                    <div class="anime-card-content">
+                        <h3 class="anime-title">Demon Slayer</h3>
+                        <p class="anime-description">Beautiful animation meets emotional storytelling. Follow Tanjiro's journey to save his sister in this visually stunning adventure.</p>
+                        <div class="anime-tags">
+                            <span class="tag">Action</span>
+                            <span class="tag">Supernatural</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anime-card hover-lift fade-in" data-anime="fmab">
+                    <div class="anime-card-image">
+                        <div class="anime-placeholder" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                            <span class="anime-number">2</span>
+                        </div>
+                    </div>
+                    <div class="anime-card-content">
+                        <h3 class="anime-title">Fullmetal Alchemist: Brotherhood</h3>
+                        <p class="anime-description">Widely considered a masterpiece. Perfect story, amazing characters, and deep themes make this essential viewing.</p>
+                        <div class="anime-tags">
+                            <span class="tag">Adventure</span>
+                            <span class="tag">Drama</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anime-card hover-lift fade-in" data-anime="mha">
+                    <div class="anime-card-image">
+                        <div class="anime-placeholder" style="background: linear-gradient(135deg, #56c785, #329f5b);">
+                            <span class="anime-number">3</span>
+                        </div>
+                    </div>
+                    <div class="anime-card-content">
+                        <h3 class="anime-title">My Hero Academia</h3>
+                        <p class="anime-description">Superhero adventure that's easy to follow. Join Deku as he trains to become the greatest hero in this inspiring tale.</p>
+                        <div class="anime-tags">
+                            <span class="tag">Superhero</span>
+                            <span class="tag">School</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anime-card hover-lift fade-in" data-anime="opm">
+                    <div class="anime-card-image">
+                        <div class="anime-placeholder" style="background: linear-gradient(135deg, #ffd93d, #ff6b6b);">
+                            <span class="anime-number">4</span>
+                        </div>
+                    </div>
+                    <div class="anime-card-content">
+                        <h3 class="anime-title">One Punch Man</h3>
+                        <p class="anime-description">Comedy meets action in this unique series. Watch Saitama defeat any enemy with just one punch in this satirical take on superheroes.</p>
+                        <div class="anime-tags">
+                            <span class="tag">Comedy</span>
+                            <span class="tag">Action</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anime-card hover-lift fade-in" data-anime="aot">
+                    <div class="anime-card-image">
+                        <div class="anime-placeholder" style="background: linear-gradient(135deg, #a8a8a8, #6b6b6b);">
+                            <span class="anime-number">5</span>
+                        </div>
+                    </div>
+                    <div class="anime-card-content">
+                        <h3 class="anime-title">Attack on Titan</h3>
+                        <p class="anime-description">Intense thriller with amazing plot twists. Humanity's fight for survival against giant titans will keep you on the edge of your seat.</p>
+                        <div class="anime-tags">
+                            <span class="tag">Thriller</span>
+                            <span class="tag">Dark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Genre Guide Section -->
+    <section id="genres" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explore Anime Genres</h2>
+                <p class="section-subtitle">Find the type of stories that appeal to you most</p>
+            </div>
+            
+            <div class="genre-grid">
+                <div class="genre-card hover-lift fade-in">
+                    <div class="genre-icon">⚔️</div>
+                    <h3 class="genre-title">Shounen</h3>
+                    <p class="genre-description">Action-packed adventures aimed at young audiences. Think superpowers, epic battles, and heroes growing stronger.</p>
+                    <div class="genre-examples">Popular: Dragon Ball, Naruto, One Piece</div>
+                </div>
+
+                <div class="genre-card hover-lift fade-in">
+                    <div class="genre-icon">🌸</div>
+                    <h3 class="genre-title">Slice of Life</h3>
+                    <p class="genre-description">Calm, everyday situations that feel real and relatable. Perfect for relaxing and connecting with characters.</p>
+                    <div class="genre-examples">Popular: K-On!, Clannad, Barakamon</div>
+                </div>
+
+                <div class="genre-card hover-lift fade-in">
+                    <div class="genre-icon">🗡️</div>
+                    <h3 class="genre-title">Isekai</h3>
+                    <p class="genre-description">Fantasy worlds where characters are transported to magical realms. Adventure and magic await!</p>
+                    <div class="genre-examples">Popular: Re:Zero, Overlord, Konosuba</div>
+                </div>
+
+                <div class="genre-card hover-lift fade-in">
+                    <div class="genre-icon">💕</div>
+                    <h3 class="genre-title">Romance</h3>
+                    <p class="genre-description">Love stories and relationships that will make your heart flutter. From sweet to dramatic.</p>
+                    <div class="genre-examples">Popular: Your Name, Toradora, Kaguya-sama</div>
+                </div>
+
+                <div class="genre-card hover-lift fade-in">
+                    <div class="genre-icon">🧠</div>
+                    <h3 class="genre-title">Seinen</h3>
+                    <p class="genre-description">Mature themes and complex narratives for adult audiences. Deep, thought-provoking stories.</p>
+                    <div class="genre-examples">Popular: Monster, Berserk, Ghost in the Shell</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Start Your Anime Journey?</h2>
+                <p class="cta-subtitle">Get personalized recommendations based on your preferences</p>
+                <a href="recommend.html" class="btn btn-primary btn-large cta-button">Get My Recommendations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">StartAnime</h3>
+                    <p class="footer-text">Your gateway to discovering amazing anime. Made for beginners, by anime lovers.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#why-anime">Why Anime?</a></li>
+                        <li><a href="#top-anime">Top Picks</a></li>
+                        <li><a href="#genres">Genres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Get Started</h4>
+                    <ul class="footer-links">
+                        <li><a href="recommend.html">Get Recommendations</a></li>
+                        <li><a href="#top-anime">Beginner Anime</a></li>
+                        <li><a href="#genres">Explore Genres</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 StartAnime. Made with ❤️ for anime newcomers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/animations.js"></script>
+</body>
+</html>
